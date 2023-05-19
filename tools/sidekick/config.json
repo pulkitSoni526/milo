@@ -60,6 +60,27 @@
     },
     {
       "containerId": "tools",
+      "id": "version-history",
+      "title": "Version History",
+      "environments": [ "edit" ],
+      "url": "/tools/version-history/index.html?project=milo--adobecom",
+      "passReferrer": true,
+      "includePaths": [ "**.docx**" ]
+    },
+    {
+      "containerId": "tools",
+      "id": "locales",
+      "title": "Locales",
+      "environments": [ "edit", "dev", "preview", "live" ],
+      "isPalette": true,
+      "passConfig": true,
+      "passReferrer": true,
+      "paletteRect": "top: auto; bottom: 25px; left: 75px; height: 388px; width: 360px;",
+      "url": "/tools/locale-nav",
+      "includePaths": [ "**.docx**" ]
+    },
+    {
+      "containerId": "tools",
       "title": "Preflight",
       "id": "preflight",
       "environments": ["dev", "preview", "live"],
