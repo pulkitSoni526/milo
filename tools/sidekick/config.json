@@ -63,7 +63,7 @@
       "id": "version-history",
       "title": "Version History",
       "environments": [ "edit" ],
-      "url": "/tools/version-history/index.html?project=milo--adobecom",
+      "url": "localhost:3000/tools/version-history/index.html?project=milo--adobecom",
       "passReferrer": true,
       "includePaths": [ "**.docx**" ]
     },
